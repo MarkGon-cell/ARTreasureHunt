@@ -24,18 +24,5 @@ A Tiny AR Game made with Unity & AR Foundation to learn the process of making AR
   - Tap the Screen to Spawn the ship, you have 30s to find the most treasure you can
   - Avoid the Kraken! 
 
-## Screenshots
-
-<img src="https://github.com/jbrialon/ar-unity-project/blob/main/Assets/UI/ressources/splash_bg.png?raw=true" width="300"/>  
-
-## Contributing & TODO List
-
- - [ ] Add VFX when the elements are spawning & disappearing
- - [ ] Add Different Type of Package
- - [ ] Create HTML viewer for the models like  [this](https://kraken.jerem.cool/) 
-    - [ ] That you could use in AR on your phone with a QRCode?
- - [ ] More Sounds! 
- - [ ] Add a Leaderboards
- - [ ] Restart Button
 
   
