@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/main.uss?fileID=7433441132597879392&amp;guid=b1e83402e4a914a27bf7cb8ef4f2c26b&amp;type=3#main" />
+    <ui:VisualElement name="splashscreen" class="container">
+        <ui:VisualElement name="logo" class="logo">
+            <ui:VisualElement name="logoImage" class="logoImage" />
+        </ui:VisualElement>
+        <ui:VisualElement name="logoMerkle" class="logoMerkle">
+            <ui:VisualElement name="merkleLogoImage" class="merkleLogoImage" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

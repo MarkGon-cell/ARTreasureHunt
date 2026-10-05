@@ -1,0 +1,109 @@
+.main-menu {
+    width: 100%;
+    height: 100%;
+
+    align-items: center;
+    justify-content: center;
+
+    background-image: resource("splash_bg");
+
+    /* Keep the original aspect ratio */
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+
+/* Original Treasure Hunt logo */
+.title-image {
+    width: 280px;
+    height: 280px;
+
+    background-image: resource("title");
+
+    /* Fit the complete logo inside the element */
+    -unity-background-scale-mode: scale-to-fit;
+
+    margin-bottom: -35px;
+}
+
+
+/* Subtitle */
+.subtitle {
+    color: white;
+
+    font-size: 24px;
+
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+
+    -unity-text-outline-width: 2px;
+    -unity-text-outline-color: rgba(0, 0, 0, 0.9);
+
+    margin-bottom: 25px;
+}
+
+
+/* Buttons container */
+.button-container {
+    width: 300px;
+
+    align-items: center;
+}
+
+
+/* PLAY / QUIT */
+.menu-button {
+    width: 250px;
+    height: 60px;
+
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+    background-color: rgba(75, 40, 12, 0.95);
+
+    color: white;
+
+    font-size: 24px;
+
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+
+    border-top-color: rgb(220, 170, 60);
+    border-bottom-color: rgb(220, 170, 60);
+    border-left-color: rgb(220, 170, 60);
+    border-right-color: rgb(220, 170, 60);
+
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+
+.menu-button:hover {
+    background-color: rgba(120, 70, 20, 0.98);
+}
+
+
+.menu-button:active {
+    background-color: rgba(45, 20, 5, 0.98);
+}
+
+
+/* Bottom text */
+.version {
+    margin-top: 25px;
+
+    color: white;
+
+    font-size: 16px;
+
+    -unity-text-align: middle-center;
+
+    -unity-text-outline-width: 2px;
+    -unity-text-outline-color: rgba(0, 0, 0, 0.9);
+}

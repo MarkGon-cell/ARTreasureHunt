@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MainMenu/MainMenu.uss?fileID=7433441132597879392&amp;guid=88e39e0a92a80294390454cbf1913fe2&amp;type=3#MainMenu"/>
+    <ui:VisualElement name="mainMenu" class="main-menu">
+        <ui:Image name="titleImage" class="title-image"/>
+        <ui:Label name="subtitleLabel" text="A Pirate AR Adventure" class="subtitle"/>
+        <ui:VisualElement name="buttonContainer" class="button-container">
+            <ui:Button name="playButton" text="PLAY" class="menu-button"/>
+            <ui:Button name="quitButton" text="QUIT" class="menu-button"/>
+        </ui:VisualElement>
+        <ui:Label name="versionLabel" text="AR Treasure Hunt" class="version"/>
+    </ui:VisualElement>
+</ui:UXML>
