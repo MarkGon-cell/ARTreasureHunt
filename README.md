@@ -13,7 +13,7 @@ A Tiny AR Game made with Unity & AR Foundation to learn the process of making AR
 
 ### Prerequisites
 
- - Unity 2022.3.5f1
+ - Unity 6000.6.3f1
  - VScode with Unity Extension
 
 ## Usage
